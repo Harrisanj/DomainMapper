@@ -556,7 +556,7 @@ async def main():
         urls = await load_urls_from_file()
 
     else:
-        platform_db_url = "https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platformdb"
+        platform_db_url = "https://raw.githubusercontent.com/Harrisanj/DomainMapper/refs/heads/main/platformdb"
         urls = await load_urls(platform_db_url)
 
     # Подхват "custom-dns-list.txt" если существует
